@@ -5,6 +5,12 @@ OmegaHtmlTagHandler is handler for html tag, which can load and converts it into
 It is a addition for usage of the fromHtml, which can not process all tags
 OmegaHtmlTagHandler allows you control over how tags are rendered. Allows proper handling of tables (support tag: table, tr, th, td)
 
+# HTML
+![examplefrom](https://user-images.githubusercontent.com/14843818/28017778-91bccdac-652f-11e7-918c-18863a5059fb.png)
+
+# Textview
+![exampleto](https://user-images.githubusercontent.com/14843818/28017856-d1b3a5c0-652f-11e7-8411-9239714e0072.png)
+
 # Installation
 To get a Git project into your build:
 
