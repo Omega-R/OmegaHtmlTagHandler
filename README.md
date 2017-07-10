@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/Omega-R/OmegaHtmlTagHandler.svg)](https://jitpack.io/#Omega-R/OmegaHtmlTagHandler)
 # OmegaHtmlTagHandler
 
 OmegaHtmlTagHandler is handler for html tag, which can load and converts it into Spannable for displaying it.
