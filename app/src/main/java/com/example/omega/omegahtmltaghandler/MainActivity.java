@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             result = Html.fromHtml(mHtmlTable, null, handler);
         }
-        textViewHtmlTable.setText(result.toString());
+        textViewHtmlTable.setText(result);
 
     }
 }

@@ -38,6 +38,7 @@ public class OmegaHtmlTagHandler implements Html.TagHandler {
 
     }
 
+    //you can set span style
     private static class Table {
 
     }
