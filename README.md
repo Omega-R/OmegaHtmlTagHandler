@@ -2,7 +2,7 @@
 
 OmegaHtmlTagHandler is handler for html tag, which can load and converts it into Spannable for displaying it.
 It is a addition for usage of the fromHtml, which can not process all tags
-OmegaHtmlTagHandler allows you control over how tags are rendered. Allows proper handling of tables(support <table>, <tr>, <th>, <td>)
+OmegaHtmlTagHandler allows you control over how tags are rendered. Allows proper handling of tables(support <table>, <tr>, <th>, td>).
 
 # Installation
 To get a Git project into your build:
