@@ -2,7 +2,7 @@
 
 OmegaHtmlTagHandler is handler for html tag, which can load and converts it into Spannable for displaying it.
 It is a addition for usage of the fromHtml, which can not process all tags
-OmegaHtmlTagHandler allows you control over how tags are rendered. Allows proper handling of tables.
+OmegaHtmlTagHandler allows you control over how tags are rendered. Allows proper handling of tables (support tag: table, tr, th, td)
 
 # Installation
 To get a Git project into your build:
@@ -35,9 +35,9 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
 }
 textViewHtmlTable.setText(spanned);
 ```
-You also can delete specifics spaces in table if needs, and can set type space:
+You also can delete specific spaces in table if needs, and can set type space:
 ```
-handler.setSymbolsBetweenTableRows("\n\n");
+handler.deleteSpecificSpaces(true, "\\\\n");
 ```
 And can set specifies what character will be between the rows of the table:
 ```
